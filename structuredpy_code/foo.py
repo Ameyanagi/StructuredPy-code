@@ -13,5 +13,18 @@ def foo(bar: str) -> str:
     return bar
 
 
+def add(a: int | float, b: int | float) -> int | float:
+    """Add two numbers together.
+
+    Args:
+        a: First number.
+        b: Second number.
+
+    Returns:
+        The sum of the two numbers.
+    """
+    return a + b
+
+
 if __name__ == "__main__":  # pragma: no cover
     pass
