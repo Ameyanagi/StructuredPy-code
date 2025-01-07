@@ -1,0 +1,1 @@
+::: structuredpy_code.foo
